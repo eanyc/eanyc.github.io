@@ -1,0 +1,23 @@
+	.multiPlayerTitle {
+		font-family: 'Arial';
+		font-size: 19px;
+		color: #313131;
+		font-weight: bold;
+		padding-right: 5px;
+		padding-bottom: 5px;
+	}
+	
+	.multiPlayerDescription {
+		font-family: 'Arial';
+		font-size: 12px;
+		color: #313131;
+		padding-bottom: 5px;
+	}
+	
+	.multiPlayerLink {
+		font-family: 'Arial';
+		font-size: 10px;
+		color: #6DA4AA;
+		text-decoration: none;
+		padding-bottom: 5px;
+	}
