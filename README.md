@@ -1,2 +1,2 @@
 # eanyc.github.io
-EffectiveAltruism.NYC static site
+[EffectiveAltruism.NYC](http://effectivealtruism.nyc) static site
