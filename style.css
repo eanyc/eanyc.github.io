@@ -7,6 +7,7 @@ body {
     background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('coolpeople.png');
     background-size:cover;
     background-color: #EEEEEE;
+    background-position: center;
     height: 60%;
     width: 100%;
 }
@@ -30,5 +31,9 @@ body {
 @media (max-width: 767px) {
   .header {
     text-align: left;
+  }
+
+  .hero-unit {
+    height: 40%;
   }
 }
