@@ -62,13 +62,20 @@
                         $("#next-event-title").html(
                             '<a href="' + link + '">' + event.name + '</a>'
                         );
+                        var time;
+                        if (event.duration) {
+                            time = '{0} to {1}'.format(
+                                    formatTime(date),
+                                    formatTime(new Date(event.time + event.duration)));
+                        } else {
+                            time = '{0}'.format(formatTime(date));
+                        }
                         $("#next-event-details").html(
-                            '<strong>Date:</strong> {0}/{1}/{2}, {3} to {4}'.format(
+                                '<strong>Date:</strong> {0}/{1}/{2}, {3}'.format(
                                 date.getMonth() + 1,
                                 date.getDate(),
                                 date.getFullYear(),
-                                formatTime(date),
-                                formatTime(new Date(event.time + event.duration)))
+                                time)
                             + '<br>'
                             + '<strong>Location:</strong> ' + venue.name
                             + '<br>'
