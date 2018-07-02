@@ -4,7 +4,7 @@ body {
 
 .hero-unit {
     display: table;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('coolpeople.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('eanycWebsiteBanner.png');
     background-size:cover;
     background-color: #EEEEEE;
     background-position: center;
